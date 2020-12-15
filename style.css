@@ -1,0 +1,74 @@
+body {
+    background-color: beige;
+}
+
+.first {
+    height: 300px;
+    background-image: url("img/belgium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(97, 230, 240, 0.4);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 300px;
+    text-align: center;
+}
+
+.description {
+    color: rgb(61, 38, 38);
+    text-shadow: 2px 2px brown;
+}
+
+.h1first {
+    margin-top: 50px;
+}
+
+.start {
+    margin-top: 20px;
+    background-color: teal;
+    border: 3px solid whitesmoke;
+}
+
+.start:hover {
+    background-color: rgb(0, 128, 38);
+}
+
+h3 {
+    color: rgb(65, 2, 2);
+    text-shadow: 2px 2px brown;
+}
+
+.second {
+    height: 700px;
+    background-image: linear-gradient(rgba(97, 230, 240, 0.4), yellow);
+}
+
+#preinfoh2 {
+    color: brown;
+    font: bolder;
+}
+
+#preinfop {
+    color: rgb(49, 46, 46);
+    font-family: 'Patua One', cursive;
+    font-size: 1.5em;
+}
+
+#target {
+    color: brown;
+    font-size: 3em;
+}
+
+.showPrice {
+    text-align: center;
+}
+
+.optionForm {
+    font-size: 1.2em;
+    color: rgb(47, 14, 1)
+}
