@@ -7,6 +7,6 @@
 
 <p>The app Will be quite simple. It only needs Two things. First. A form. The form will be for the user two complete with informations about the house. This form will be connected to the API. The second thing is way to display the results. We don't really have a lot to say about it. It could be a popup, another page, you have some wiggle room there.</p>
 ## Learning objectives
--backend: connecting to a homemade api using javascript and fetch
--frontend: building a user friendly form and a clear result page.
+- backend: connecting to a homemade api using javascript and fetch
+- frontend: building a user friendly form and a clear result page.
 ## https://raileanualexandru.github.io/Bouman-Johnson-housing-project/. 
