@@ -6,7 +6,10 @@
 <p>As you know they are really ding dongs about computers and softwares we need you to create an app that will be the bridge between our R&D department and the end user: our sales team.</p>
 
 <p>The app Will be quite simple. It only needs Two things. First. A form. The form will be for the user two complete with informations about the house. This form will be connected to the API. The second thing is way to display the results. We don't really have a lot to say about it. It could be a popup, another page, you have some wiggle room there.</p>
+
 ## Learning objectives
+
 - backend: connecting to a homemade api using javascript and fetch
 - frontend: building a user friendly form and a clear result page.
+
 ## https://raileanualexandru.github.io/Bouman-Johnson-housing-project/. 
