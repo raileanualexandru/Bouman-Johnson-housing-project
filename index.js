@@ -6,6 +6,7 @@ btn.addEventListener('submit', function (event) {
     let area = document.getElementById("inputArea").value;
     let roomsNr = document.getElementById("inputRooms").value;
     let zipCode = document.getElementById("inputZip").value;
+    document.getElementById("target").innerHTML = "loading...";
 
     let propertyType;
     let el = document.getElementsByName("gridRadios");
@@ -71,9 +72,8 @@ btn.addEventListener('submit', function (event) {
         method: "POST",
         body: JSON.stringify(_data),
         headers: { "Content-type": "application/json; charset=UTF-8" }
+        
     })
         .then(response => response.json())
-        .then(json => document.getElementById("target").innerHTML = formatter.format(json["Predicted price"]));
-
-
+        .then(json =>  document.getElementById("target").innerHTML = formatter.format(json["Predicted price"]));
 });
